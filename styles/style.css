@@ -29,7 +29,7 @@ header {
 
 .login {
   font-weight: bold; color: white; text-decoration: none; /* text style adjustments*/
-  background-color: #1c5380; border-radius: 3px; box-shadow:0 0 10px rgba(0, 0, 0, .8); /* background and border */
+  background-image: linear-gradient( #1c5380, #06365f); border-radius: 3px; box-shadow:0 0 10px rgba(0, 0, 0, .8); /* background and border */
   height: 50px; width: 100px; /* button size */
   display: flex; align-items: center; justify-content: space-evenly; /* scaling image and text */
 }
@@ -48,7 +48,7 @@ main {
   margin: 0;
 }
 
-.stores p:first-child {
+.stores a:first-child {
   margin-right: 2em;
 }
 
